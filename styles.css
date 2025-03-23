@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+
+/* Use Playfair Display (Serif) for all H1, H2, and CTA buttons to add personality and a handcrafted, premium touch.
+
+Use Open Sans (Sans-Serif) for body text, descriptions, and menu items to maintain clarity and readability. */
+
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+:root {
+    /* A soft, neutral background color that evokes comfort. Primary background​ */
+    --Warm-Beige: #F5F5DC; 
+
+    /* For headers or accents, adding depth and warmth. Headers, Logo, and Main Text*/
+    --Rich-Brown: #8B4513;
+
+    /* For backgrounds or secondary elements, enhancing the cozy feel.​ Secondary Background & Card Sections*/
+    --Soft-Cream: #FFF5E1;
+
+    /* As an accent color, adding a touch of freshness. Call-to-Action (Buttons, Links, Highlights)*/
+    --Muted-Olive-Green: #6B8E23;
 }
 
 html {
