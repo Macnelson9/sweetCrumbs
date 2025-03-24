@@ -7,7 +7,10 @@
 Use Open Sans (Sans-Serif) for body text, descriptions, and menu items to maintain clarity and readability. */
 
 *, *::before, *::after {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 :root {
@@ -26,4 +29,9 @@ Use Open Sans (Sans-Serif) for body text, descriptions, and menu items to mainta
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background: var(--Warm-Beige);
+    color: var(--Rich-Brown);
 }

@@ -3,12 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Crumbs || Home</title>
+    <title>Sweet Crumbs</title>
+    <link rel="icon" href="./assets/logo.png" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/e8c22a66c1.js" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <div class="body-container" id="home">
+        <!-- <div class="loader-container"></div> -->
+        <nav class="nav-bar">
+            <div class="logo-div">
+                <img src="./assets/logo.png" alt="sweetcrumbs logo" id="logo" loading="eager">
+            </div>
+
+            <ul class="nav-ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <i class="fa-solid fa-hamburger"></i>
+        </nav>
+
+        <nav class="mobile-nav">
+            <div class="top">
+                <img src="./assets/logo.png" alt="sweetcrumbs logo" id="logo" loading="eager">
+                <i class="fa-solid fa-times"></i>
+            </div>
+
+            <ul class="mobile-nav-ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>SWEETCRUMBS</h1>
+                    <p><strong>Welcome to Sweet Crumbs – Where Every Bite Feels Like Home! 🍰✨</strong>
+                        At Sweet Crumbs, we craft delicious, handcrafted pastries, artisanal bread, and custom cakes made with love and the finest ingredients. Whether you're craving a buttery croissant, a decadent dessert, or a beautifully designed cake for your special occasion, we've got you covered. Experience the warmth of home in every bite!
+                    </p>
+                    <a href="#"><button class="cta-shop">Shop now</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us" id="about">
+            <div class="about-us-container">
+                <div class="about-image">
+                    <img src="./assets/About section image.webp" alt="Bakery interior" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <div class="upside-text">
+                        <h2>About Us</h2>
+                        <p>At Sweet Crumbs, we believe baking is an art that brings people together. What started as a small family kitchen has grown into a beloved local bakery known for its handcrafted pastries, fresh ingredients, and cozy atmosphere.</p>
+                    </div>
+
+                    <div class="downside-text">
+                        <h2>What makes us unique?</h2>
+                        <p>✅ We use organic, locally sourced ingredients.</p>
+                        <p>✅ Every item is baked fresh daily with no preservatives.</p>
+                        <p>✅ Our menu changes seasonally to bring you the best flavors of each season.</p>
+                        <p class="tagline">We don’t just bake—we create moments of joy!</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-member">
+                        <img src="./assets/A portrait of Emma Reynolds.webp" alt="Emma Reynolds" loading="lazy">
+                        <p>Emma Reynolds - Master Pastry Chef</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./assets/A portrait of Liam Carter.webp" alt="Liam Carter" loading="lazy">
+                        <p>Liam Carter - Creative Cake Designer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./assets/A portrait of Sophia Martinez.webp" alt="Sophia Martinez" loading="lazy">
+                        <p>Sophia Martinez – Dough & Croissant Specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="products-container">
+                <div class="products-text">
+                    <h1>Our Best Sellers</h1>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-details">
+                        <img src="./assets/chocolate-croissant-fresh-baked-wooden-table-homemade.jpg" alt="Chocolate drizzle croissant" loading="lazy">
+
+                        <div class="products-text">
+                            <h2>Chocolate Drizzle Croissant</h2>
+                            <p id="description">Flaky, buttery croissant topped with rich chocolate drizzle.</p>
+                            <p id="price">
+                                $3.50
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <img src="./assets/strawberry-cheesecake-side-view.jpg" alt="Berry Bliss Cheesecake" loading="lazy">
+
+                        <div class="products-text">
+                            <h2>Berry Bliss Cheesecake</h2>
+                            <p id="description">Creamy cheesecake infused with fresh berries and a graham cracker crust.</p>
+                            <p id="price">
+                               $5.99
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <img src="./assets/sweet-dessert-with-many-donut.jpg" alt="Honey Glazed Donuts" loading="lazy">
+
+                        <div class="products-text">
+                            <h2>Honey Glazed Donuts</h2>
+                            <p id="description">Soft, airy donuts covered in a sweet honey glaze.</p>
+                            <p id="price">
+                                $2.75
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <img src="./assets/Rustic-Sourdough-Bread-11-1024x1536.jpg" alt="Rustic Sourdough Bread" loading="lazy">
+
+                        <div class="products-text">
+                            <h2>Rustic Sourdough Bread</h2>
+                            <p id="description">Handmade sourdough with a crispy crust and soft interior.</p>
+                            <p id="price">
+                                $6.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us" id="contact">
+            <div class="contact-us-container">
+                <h1>Contact Us</h1>
+                <p>Visit us at our bakery or get in touch online.</p>
+                <div class="contact-details">
+                    <form id="contact-form">
+                        <input type="text" placeholder="Your Name" id="name-el">
+                        <input type="email" placeholder="Your Email" id="email-el">
+                        <textarea placeholder="Your Message" id="message-el"></textarea>
+                        <button type="submit" id="submit-btn">Submit</button>
+                    </form>
+
+                    <div class="map"></div>
+                </div>
+
+                
+                <div class="contact-info">
+                    <div class="location">
+                        <h2>📍 Sweet Crumbs Bakery</h2>
+                        
+                        <p class="address">📌 123 Main Street, Brooklyn, NY 11201, USA</p>
+                        <p class="phone">📞 +1(568)477898</p>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Sweet Crumbs Bakery | All rights reserved</p>
+        </footer>
+    </div>
 </body>
 </html>
