@@ -7,8 +7,6 @@
 Use Open Sans (Sans-Serif) for body text, descriptions, and menu items to maintain clarity and readability. */
 
 *, *::before, *::after {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
@@ -31,7 +29,264 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Muted-Olive-Green)
+}
+
 body {
     background: var(--Warm-Beige);
-    color: var(--Rich-Brown);
 }
+
+.body-container {
+    background: var(--Warm-Beige);
+    color: var(--Rich-Brown);
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+.nav-ul {
+    display: none;
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.logo-div h1, .top h1 {
+    font-family: "Rozha One", sans-serif;
+}
+
+#hamburger, #close {
+    font-size: 1.15rem;
+}
+
+/* Mobile Navigation */
+nav.mobile-nav {
+    display: none;
+    height: 100vh;
+}
+
+.mobile-nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 3;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-nav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mobile-nav-ul li a {
+    font-size: 1.5rem;
+}
+
+/* Hero section */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+    font-family: "Rozha One", sans-serif;
+    font-size: 2.7rem;
+    letter-spacing: .25rem;
+    margin: 37px auto;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.cta-shop {
+    background: var(--Muted-Olive-Green);
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 1.25rem;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    box-shadow: 7px 5px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cta-shop:hover {
+    background-color: #556B2F;
+    color: var(--Soft-Cream);
+    transform: translateY(-2px);
+    box-shadow: 10px -5px 10px rgba(0, 0, 0, 0.15);
+    top: 0;
+}
+
+.cta-shop:active {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* About us section */
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-image img {
+    border-radius: 7px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+    transition: all 0.5s ease;
+}
+
+.about-image img:hover {
+    transform: translateY(-2px);
+    box-shadow: 20px -10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.upside-text h2, .downside-text h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.upside-text p {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.downside-text p {
+    font-size: 1.25rem;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-member img {
+    border-radius: 7px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+    transition: all 0.5s ease;
+}
+
+.team-member img:hover {
+    transform: translateY(-2px);
+    box-shadow: 20px -10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.team-member p {
+    font-size: 1.25rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.team-member p span {
+    font-weight: 600;
+}
+
+/* Products section */
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.products-text h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product-details img {
+    width: 323px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.products-text h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.7rem;
+}
+
+#description {
+    font-size: 1.15rem;
+    font-style: italic;
+}
+
+#price {
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 10px auto;
+}
+
+/* hr {
+    background-color: var(--Muted-Olive-Green);
+    border-color: var(--Muted-Olive-Green);
+    border-width: .1rem;
+    border-style: solid;
+} */

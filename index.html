@@ -13,39 +13,40 @@
     <div class="body-container" id="home">
         <!-- <div class="loader-container"></div> -->
         <nav class="nav-bar">
-            <div class="logo-div">
-                <img src="./assets/logo.png" alt="sweetcrumbs logo" id="logo" loading="eager">
+            <div class="nav-bar-container">
+                <div class="logo-div">
+                   <h1>SweetCrumbs</h1>
+                </div>
+                <ul class="nav-ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" id="hamburger"></i>
             </div>
-
-            <ul class="nav-ul">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Product</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <i class="fa-solid fa-hamburger"></i>
         </nav>
 
         <nav class="mobile-nav">
-            <div class="top">
-                <img src="./assets/logo.png" alt="sweetcrumbs logo" id="logo" loading="eager">
-                <i class="fa-solid fa-times"></i>
+            <div class="mobile-nav-container">
+                <div class="top">
+                   <h1>SweetCrumbs</h1>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </div>
+                <ul class="mobile-nav-ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-
-            <ul class="mobile-nav-ul">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Product</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </nav>
 
         <section class="hero-section">
             <div class="hero-container">
                 <div class="hero-text">
                     <h1>SWEETCRUMBS</h1>
-                    <p><strong>Welcome to Sweet Crumbs – Where Every Bite Feels Like Home! 🍰✨</strong>
+                    <p><strong>Welcome to Sweet Crumbs – Where Every Bite Feels Like Home! 🍰✨</strong><br><br>
                         At Sweet Crumbs, we craft delicious, handcrafted pastries, artisanal bread, and custom cakes made with love and the finest ingredients. Whether you're craving a buttery croissant, a decadent dessert, or a beautifully designed cake for your special occasion, we've got you covered. Experience the warmth of home in every bite!
                     </p>
                     <a href="#"><button class="cta-shop">Shop now</button></a>
@@ -66,24 +67,24 @@
 
                     <div class="downside-text">
                         <h2>What makes us unique?</h2>
-                        <p>✅ We use organic, locally sourced ingredients.</p>
-                        <p>✅ Every item is baked fresh daily with no preservatives.</p>
-                        <p>✅ Our menu changes seasonally to bring you the best flavors of each season.</p>
-                        <p class="tagline">We don’t just bake—we create moments of joy!</p>
+                        <p>- We use organic, locally sourced ingredients.</p>
+                        <p>- Every item is baked fresh daily with no preservatives.</p>
+                        <p>- Our menu changes seasonally to bring you the best flavors of each season.</p>
+                        <p class="tagline">We don’t just bake—we create moments of joy! ✨</p>
                     </div>
                 </div>
                 <div class="team">
                     <div class="team-member">
                         <img src="./assets/A portrait of Emma Reynolds.webp" alt="Emma Reynolds" loading="lazy">
-                        <p>Emma Reynolds - Master Pastry Chef</p>
+                        <p>Emma Reynolds - <span>Master Pastry Chef</span></p>
                     </div>
                     <div class="team-member">
                         <img src="./assets/A portrait of Liam Carter.webp" alt="Liam Carter" loading="lazy">
-                        <p>Liam Carter - Creative Cake Designer</p>
+                        <p>Liam Carter - <span>Creative Cake Designer</span></p>
                     </div>
                     <div class="team-member">
                         <img src="./assets/A portrait of Sophia Martinez.webp" alt="Sophia Martinez" loading="lazy">
-                        <p>Sophia Martinez – Dough & Croissant Specialist</p>
+                        <p>Sophia Martinez – <span>Dough & Croissant Specialist</span></p>
                     </div>
                 </div>
             </div>
@@ -102,9 +103,11 @@
                         <div class="products-text">
                             <h2>Chocolate Drizzle Croissant</h2>
                             <p id="description">Flaky, buttery croissant topped with rich chocolate drizzle.</p>
+                            <!-- <hr> -->
                             <p id="price">
                                 $3.50
                             </p>
+                            <!-- <hr> -->
                         </div>
                     </div>
                     <div class="product-details">
