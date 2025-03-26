@@ -1,39 +1,39 @@
-# sweetCrumbs
-Website for a local bakery, Sweet Crumbs. A fresh, modern, and responsive website that enhances their online presence.
+# Sweet Crumbs Bakery Website
+
+A modern, responsive website for Sweet Crumbs Bakery showcasing their delicious offerings and welcoming atmosphere.
+
 ## Project Overview
 
-Sweet Crumbs is a local bakery seeking to enhance its online presence with a modern, responsive website. The goal is to create a visually appealing and user-friendly platform that works seamlessly across all devices.
+Sweet Crumbs is a local bakery in Brooklyn, NY that needed a fresh online presence. This website provides a warm, inviting platform that reflects their artisanal approach to baking while ensuring a seamless experience across all devices.
 
 ## Features
 
 ### Homepage
-- **Hero Section**: A high-quality image of best-selling pastries with a catchy tagline and a "Shop Now" button linking to the product list.
-- **Featured Products**: A section showcasing selected bakery items.
+- **Hero Section**: Elegant welcome message with custom typography and smooth animations
+- **About Us**: Story section with team introductions and bakery philosophy
+- **Products Gallery**: Interactive display of baked goods with marquee animation
+- **Contact Section**: Integrated map and contact form
 
-### About Us Page
-- **Our Story**: A short, engaging narrative about Sweet Crumbs and its unique qualities.
-- **Meet the Team**: A section introducing the head bakers.
-
-### Products Page
-- **Product Grid**: A visually appealing grid layout displaying bakery items (cakes, cookies, bread, etc.).
-- **Product Details**: Each product includes an image, name, short description, and price.
-
-### Contact Page
-- **Contact Form**: A form with JavaScript validation for user input.
-- **Location Map**: An embedded Google Maps view of the bakery's location.
-- **Social Media Links**: Links to Sweet Crumbs' social media profiles.
-
-## Key Requirements
-- ✅ Fully responsive design for all screen sizes.
-- ✅ Clean and modern UI using HTML & CSS (grid/flexbox).
-- ✅ Interactive elements with JavaScript (e.g., form validation, smooth scrolling, image sliders).
-- ✅ Performance optimized for fast loading times.
+### Key Elements
+- ✅ Custom loader animation for enhanced user experience
+- ✅ Responsive navigation with mobile-friendly hamburger menu
+- ✅ Interactive product cards with hover effects
+- ✅ LeafletJS map integration showing bakery location
+- ✅ Optimized images and smooth animations
+- ✅ Consistent brand colors and typography
 
 ## Technologies Used
-- **HTML5**: For structuring the website content.
-- **CSS3**: For styling and layout (including grid and flexbox).
-- **JavaScript**: For interactivity and dynamic elements.
-- **Google Maps API**: For embedding the location map.
+- **HTML5**: Semantic markup for content structure
+- **CSS3**: 
+  - Custom animations and transitions
+  - Grid and Flexbox layouts
+  - Media queries for responsiveness
+  - CSS variables for theming
+- **JavaScript**: 
+  - DOM manipulation
+  - LeafletJS map integration
+  - Mobile menu functionality
+- **LeafletJS**: Interactive map implementation
 
 ## Installation and Usage
 1. Clone the repository:
@@ -46,12 +46,18 @@ Sweet Crumbs is a local bakery seeking to enhance its online presence with a mod
     ```
 3. Open `index.html` in your browser to view the website.
 
+## Color Palette
+- Rich Brown: #4A3728
+- Warm Beige: #F5E6D3
+- Muted Olive Green: #556B2F
+- Soft Cream: #FDFBF7
+
 ## Future Enhancements
-- Add dark mode feature for users to switch between light and dark themes.
-- Implement a newsletter subscription form.
-- Add a blog section for sharing recipes and bakery updates.
-- Implement an online ordering system with payment integration.
-- Include customer reviews and testimonials.
+- Implement dark mode toggle
+- Add e-commerce functionality for online ordering
+- Create a customer reviews section
+- Add a blog for sharing recipes
+- Integrate a newsletter subscription system
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
