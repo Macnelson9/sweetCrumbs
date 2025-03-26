@@ -11,7 +11,9 @@
 </head>
 <body>
     <div class="body-container" id="home">
-        <!-- <div class="loader-container"></div> -->
+        <div class="loader-overlay">
+            <div class="loader"></div>
+        </div>
         <nav class="nav-bar">
             <div class="nav-bar-container">
                 <div class="logo-div">
@@ -23,7 +25,7 @@
                     <li><a href="#about">About us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <i class="fa-solid fa-bars" id="hamburger"></i>
+                <ion-icon name="menu" id="hamburger"></ion-icon>
             </div>
         </nav>
 
@@ -31,7 +33,7 @@
             <div class="mobile-nav-container">
                 <div class="top">
                    <h1>SweetCrumbs</h1>
-                    <i class="fa-solid fa-xmark" id="close"></i>
+                   <ion-icon name="close" id="close"></ion-icon>
                 </div>
                 <ul class="mobile-nav-ul">
                     <li><a href="#home">Home</a></li>
@@ -171,17 +173,23 @@
                         <p class="phone">📞 +1(568)477898</p>
                     </div>
                     <div class="socials">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
                     </div>
                 </div>
             </div>
         </section>
 
         <footer>
-            <p>© 2025 Sweet Crumbs Bakery | All rights reserved</p>
+            <div class="footer-container">
+                <p>© 2025 Sweet Crumbs Bakery | All rights reserved</p>
+            </div>
         </footer>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
